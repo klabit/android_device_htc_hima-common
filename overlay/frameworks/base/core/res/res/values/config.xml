@@ -148,13 +148,13 @@
         <item>ncm\\d</item>
     </string-array>
 
-    <!-- Defines the shutdown options shown in the reboot dialog. -->
+    <!-- Defines the shutdown options shown in the reboot dialog.
         <array name="shutdown_reboot_options" translatable="false">
         <item>@string/reboot_reboot</item>
         <item>@string/reboot_soft</item>
         <item>@string/reboot_recovery</item>
         <item>@string/reboot_download</item>
-    </array>
+    </array> -->
 
     <!-- Do not translate. Defines the shutdown actions passed to the kernel.
          The first item should be empty for regular reboot. -->
@@ -285,7 +285,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+    <add-resource type="integer" name="config_deviceHardwareWakeKeys">64</add-resource>
 
     <!-- Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
@@ -341,7 +341,7 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
-    <!-- Enable blur support -->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!-- Enable blur support 
+    <bool name="config_uiBlurEnabled">true</bool> -->
 
 </resources>
